@@ -1,0 +1,12 @@
+#!/bin/bash
+
+/config/installers/curl
+
+/config/installers/zsh
+/config/installers/vim
+
+/config/installers/node
+
+/config/installers/yarn
+/config/installers/globals
+/config/installers/nuclide

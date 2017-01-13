@@ -1,0 +1,4 @@
+#!/bin/bash
+
+apt-get install -y python gcc g++ tmux make autoconf python-dev libpython-dev
+zsh -c "source ~/.zshrc && npm install --global nodemon babel-cli"

@@ -1,0 +1,11 @@
+#!/bin/bash
+
+set -e
+/config/ssh_config.sh
+echo "THING>" $1 "<ENDTHING"
+if [ $1 ]; then
+    service ssh start
+    exec $1
+else
+    exec /usr/sbin/sshd -D
+fi

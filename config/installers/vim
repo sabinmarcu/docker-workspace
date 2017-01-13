@@ -1,0 +1,4 @@
+#!/bin/bash
+
+apt-get install -y vim git
+curl https://raw.githubusercontent.com/sabinmarcu/vimfiles/master/install.sh | sh

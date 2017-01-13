@@ -1,0 +1,5 @@
+#!/bin/bash
+
+apt-get install -y zsh git
+curl https://raw.githubusercontent.com/sabinmarcu/zshrc/master/install.sh | sh
+chsh -s `which zsh`
